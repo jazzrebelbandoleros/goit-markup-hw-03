@@ -32,6 +32,10 @@ body {
   background-color: #ffffff;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1168px;
   padding-left: 15px;
@@ -41,10 +45,17 @@ body {
 }
 
 /* ============ HEADER STYLES ============ */
+.container-header {
+  display: flex;
+}
+
 .pahe-header {
   padding-top: 28px;
   padding-bottom: 28px;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
 }
+
 .page-nav {
   display: flex;
   align-items: center;
@@ -59,12 +70,15 @@ body {
   text-align: left;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .menu {
   display: flex;
   margin-left: auto;
   column-gap: 24px;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .text-color {
@@ -106,6 +120,7 @@ body {
 /* ============ HERO STYLES ============ */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main-title {
   font-size: 56px;
@@ -114,6 +129,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .order-button {
@@ -122,6 +138,12 @@ body {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .order-button:hover,
 .order-button:focus {
@@ -130,6 +152,12 @@ body {
 }
 
 /* ============ BENEFITS STYLES ============ */
+.benefits {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+}
 .benefits-list-title {
   font-size: 20px;
   font-weight: 500;
@@ -137,6 +165,11 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.benefits-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-list-text {
@@ -149,11 +182,18 @@ body {
 }
 
 .benefits-list {
+  display: flex;
+  gap: 24px;
 }
 
 /* ============ TEAM STYLES ============ */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.name {
+  padding: 32px 0;
 }
 
 .section-title {
@@ -163,10 +203,18 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-title {
@@ -176,6 +224,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -185,16 +235,40 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  text-align: center;
 }
 
 /* ============ PORTFOLIO STYLES ============ */
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.container-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-list-title {
@@ -203,6 +277,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -215,6 +290,7 @@ body {
 /* ============ FOOTER STYLES ============ */
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -226,6 +302,8 @@ body {
   text-align: left;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -235,6 +313,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .text-color-footer {
