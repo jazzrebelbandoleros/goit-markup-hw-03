@@ -46,7 +46,7 @@ img {
 }
 
 /* ============ HEADER STYLES ============ */
-.pahe-header {
+.page-header {
   padding-top: 28px;
   padding-bottom: 28px;
   width: 1158px;
@@ -83,9 +83,10 @@ img {
 }
 
 .menu-item {
-  padding: 24px 0;
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link {
