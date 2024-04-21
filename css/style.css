@@ -165,8 +165,16 @@ img {
   padding: 120px 0;
 }
 
-.title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 
 .benefits-list-title {
@@ -314,8 +322,8 @@ img {
   text-align: left;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
