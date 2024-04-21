@@ -43,6 +43,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
+  display: flex;
 }
 
 /* ============ HEADER STYLES ============ */
@@ -102,6 +103,11 @@ img {
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
+}
+
+.contacts {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts-link {
