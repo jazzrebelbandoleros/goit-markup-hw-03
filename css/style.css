@@ -85,8 +85,6 @@ img {
 .menu-item {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .menu-link {
@@ -96,8 +94,8 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-link:hover,
 .menu-link:focus {
