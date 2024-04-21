@@ -42,18 +42,15 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  width: 1158px;
 }
 
 /* ============ HEADER STYLES ============ */
-.container-header {
-  display: flex;
-}
-
 .pahe-header {
   padding-top: 28px;
   padding-bottom: 28px;
-  border-bottom: 1px solid #e7e9fc;
   width: 1158px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
@@ -83,6 +80,12 @@ img {
 
 .text-color {
   color: #2e2f42;
+}
+
+.menu-item {
+  padding: 24px 0;
+  display: flex;
+  gap: 40px;
 }
 
 .menu-link {
@@ -156,8 +159,10 @@ img {
   padding: 120px 0;
 }
 
-.visually-hidden {
+.title {
+  visibility: hidden;
 }
+
 .benefits-list-title {
   font-size: 20px;
   font-weight: 500;
@@ -249,6 +254,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-item {
