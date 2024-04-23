@@ -42,14 +42,15 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
-  display: flex;
 }
 
 /* ============ HEADER STYLES ============ */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .page-header {
-  padding-top: 28px;
-  padding-bottom: 28px;
-  width: 1158px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -72,10 +73,7 @@ img {
 
 .menu {
   display: flex;
-  margin-left: auto;
-  column-gap: 24px;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .text-color {
@@ -83,8 +81,6 @@ img {
 }
 
 .menu-item {
-  display: flex;
-  gap: 40px;
 }
 
 .menu-link {
@@ -96,6 +92,7 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -114,6 +111,9 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -122,6 +122,7 @@ img {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 /* ============ HERO STYLES ============ */
@@ -137,6 +138,8 @@ img {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .order-button {
@@ -151,6 +154,7 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 .order-button:hover,
 .order-button:focus {
